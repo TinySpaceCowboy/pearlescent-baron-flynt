@@ -37,12 +37,17 @@ body {
     letter-spacing: 5px;
     font-size: 3rem;
     text-align: center;
+    @mediia all (max-width: 400px){
+        font-size: 1rem;
+    }
 }
+ 
 
 
 .title-container > h2{
     color: red;
 }
+
 .app-btn-wrap {
     display: flex;
     justify-content: center;
@@ -119,8 +124,10 @@ body {
     width: 40%;
     float: right;
 }.figure-wrapper > img {
-    padding-right: 20%;
+    padding-right: 20%auto;
+    max-width: fit-content;
     padding-top: 20%;
+    overflow: auto;
 }
 
 
