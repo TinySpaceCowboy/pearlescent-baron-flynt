@@ -83,13 +83,27 @@ body {
 .top-banner > img {
     max-width: 100%;
 }
+
+
+
+
+
+
 .main-container {
     display: flex;
     padding: 10%;
 }
+.text-container {
+    width: 50%;
+    height: 50%;
+}
 .text-container > p {
     padding-right: 10%;
 }
+.figure-wrapper {
+    width: 50%;
+}
+
 
 
 
