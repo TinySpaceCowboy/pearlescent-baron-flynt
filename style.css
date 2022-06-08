@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin: auto;
+    margin: 0 auto;
 }
 body {
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -14,12 +14,43 @@ body {
     letter-spacing: 1px;
     width: 100%;
     max-width: 600px;
+    padding: 2% 3%;
+
 }
 .inner-body-wrapper {
     width: 100%;
     max-width: 600px;
     background-color: black;
 }
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    padding-top: 30px;
+}
+.title-container > h1{
+    color: rgb(59, 175, 59);
+    letter-spacing: 5px;
+    font-size: 3rem;
+}
+
+
+.title-container > h2{
+    color: red;
+}
+.app-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.app-btn-wrap > img {
+    margin: 10px;
+}
+
+
 .social {
     display: flex;
     flex-direction: column;
@@ -39,32 +70,15 @@ body {
 .social > ul > li > a > img {
     width: 40px;
 }
-.title-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-}
-.title-container > h1{
-    font-size: 4rem;
-    margin-top: 50px;
-    letter-spacing: 10px;
-    color: rgb(59, 175, 59);
-    text-align: center;
-}
-.title-container > h2{
-    color: red;
-}
-.app-btn-wrap {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.app-btn-wrap > img {
-    margin: 10px;
-}
+
+
+
+
+
+
 .top-banner {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
 }
 .top-banner > img {
     max-width: 100%;
@@ -76,9 +90,20 @@ body {
 .text-container > p {
     padding-right: 10%;
 }
+
+
+
+
+
+
+
+
+
+
+
 .tour-date-container {
+    width: 100%;
     max-width: 600px;
-    width: 600px;
 }
 .tour-date-container > h2 {
     text-align: center;
@@ -100,12 +125,27 @@ body {
     padding-bottom: 50px;
     width: 50%;
 }
+
+
+
+
+
+
+
+
+
 .youtube-music > h2 {
+    width: 100%;
+    max-width: 600px;
     text-align: center;
+    padding-bottom: 30px;
+    color:red;
 }
 .youtube-music > iframe {
     display: block;
     margin: auto;
+    width: 100%;
+    max-width: 600px;
 }
 .bottom-text-container {
     padding-left: 10%;
@@ -121,7 +161,7 @@ body {
 .vapor-sunset {
     text-align: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     max-width: 600px;
 }
 .vapor-sunset > h2{
@@ -130,13 +170,13 @@ body {
     letter-spacing: 10px;
 }
 .sunset-image-wrap {
-    width: 600px;
+    width: 100%;
     max-width: 600px;
     overflow: hidden;
 }
 .sunset-image-wrap > img{
+    width: 100%;
     max-width: 600px;
-    height: auto;
 }
 
 
