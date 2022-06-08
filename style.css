@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: auto;
 }
 body {
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -11,12 +12,13 @@ body {
     color: rgb(138, 138, 16);
     font-size: 14px;
     letter-spacing: 1px;
+    width: 100%;
+    max-width: 600px;
 }
 .inner-body-wrapper {
-    width: 600px;
+    width: 100%;
     max-width: 600px;
     background-color: black;
-    margin: 0 auto;
 }
 .social {
     display: flex;
@@ -41,13 +43,14 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
 }
 .title-container > h1{
     font-size: 4rem;
     margin-top: 50px;
     letter-spacing: 10px;
     color: rgb(59, 175, 59);
+    text-align: center;
 }
 .title-container > h2{
     color: red;
@@ -117,8 +120,8 @@ body {
 
 .vapor-sunset {
     text-align: center;
-    width: 600px;
-    height: auto;
+    width: 100%;
+    max-width: 600px;
     max-width: 600px;
 }
 .vapor-sunset > h2{
