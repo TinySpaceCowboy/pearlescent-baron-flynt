@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 0 auto;
+    background-color: #0D112B;
+    color: rgb(138, 138, 16);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.inner-body-wrapper {
+    width: 800px;
+    max-width: 800px;
+    background-color: black;
+    margin: 0 auto;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.social > ul{
+    margin: auto;
+}
+.social > ul > li {
+    display: inline;
+    float: center;
+    padding: 30px;
+}
+
+.social > ul > li > a > img {
+    width: 40px;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.title-container > h1{
+    font-size: 4rem;
+    margin-top: 50px;
+    letter-spacing: 10px;
+    color: rgb(59, 175, 59);
+}
+.title-container > h2{
+    color: red;
+}
+.app-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.app-btn-wrap > img {
+    margin: 10px;
+}
+.top-banner {
+    width: 800px;
+}
+.top-banner > img {
+    max-width: 100%;
+}
+.main-container {
+    display: flex;
+    padding: 10%;
+}
+.text-container > p {
+    padding-right: 10%;
+}
+.tour-date-container {
+    max-width: 800px;
+    width: 800px;
+}
+.tour-date-container > h2 {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.tour-column-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.tour-column-wrapper ul {
+    list-style-type: none;
+    margin: 50px;
+}
+.tour-date-container > img {
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 50%;
+}
+.youtube-music > h2 {
+    text-align: center;
+}
+.youtube-music > iframe {
+    display: block;
+    margin: auto;
+}
+.bottom-text-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+
+
+
+
+
+.vapor-sunset {
+    text-align: center;
+}
+
+.vapor-sunset > h2{
+    padding-top: 10%;
+    color: palevioletred;
+    letter-spacing: 10px;
+}
+
+
+
