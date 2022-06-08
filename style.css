@@ -164,8 +164,8 @@ body {
     width: 100%;
     max-width: 600px;
     text-align: center;
-    padding-bottom: 100px;
-    color:red;
+    padding-bottom: 10%;
+    color: green;
 }
 .youtube-music > iframe {
     display: block;
@@ -180,6 +180,20 @@ body {
 }
 
 
+
+.bottom-btn-wrap {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.bottom-btn-wrap > a > img {
+    max-width: 100px;
+    margin: 0auto;
+}
 
 
 
@@ -204,5 +218,11 @@ body {
     width: 100%;
     max-width: 600px;
 }
+.spotify-bottom-button > a > img{
+    width: 100%;
+    max-width: 40px;
+}
+
+
 
 
