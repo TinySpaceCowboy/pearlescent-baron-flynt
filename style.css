@@ -84,9 +84,7 @@ body {
     max-width: 100%;
 }
 
-
-
-
+ß
 
 
 .main-container {
@@ -99,6 +97,7 @@ body {
 }
 .text-container > p {
     padding-right: 10%;
+    font-size: .75rem;
 }
 .figure-wrapper {
     width: 50%;
