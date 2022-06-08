@@ -92,17 +92,12 @@ body {
     padding: 10%;
 }
 .text-container {
-    width: 50%;
     height: 50%;
 }
 .text-container > p {
     padding-right: 10%;
     font-size: .75rem;
 }
-.figure-wrapper {
-    width: 50%;
-}
-
 
 
 
