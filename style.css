@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    margin: 0 auto;
+
 }
 body {
     font-family: 'Kdam Thmor Pro', sans-serif;
-    margin: 2% 0auto;
+    margin: 0auto;
     background-color: #0D112B;
     color: rgb(138, 138, 16);
-    font-size: 14px;
     letter-spacing: 1px;
     width: 100%;
     max-width: 600px;
@@ -37,7 +36,10 @@ body {
     letter-spacing: 5px;
     font-size: 3rem;
     text-align: center;
-    @mediia all (max-width: 400px){
+}
+
+@media (max-width: 390px) {
+    .title-container > h1 {
         font-size: 1rem;
     }
 }
@@ -46,6 +48,7 @@ body {
 
 .title-container > h2{
     color: red;
+    text-align: center;
 }
 
 .app-btn-wrap {
@@ -120,14 +123,15 @@ body {
     text-align: left;
     font-size: .5rem;
 }
+
 .figure-wrapper {
     width: 40%;
     float: right;
 }.figure-wrapper > img {
-    padding-right: 20%auto;
-    max-width: fit-content;
-    padding-top: 20%;
-    overflow: auto;
+    width: 100%;
+    max-width: 200px;
+    padding-top: 40%;
+    overflow: hidden;
 }
 
 
