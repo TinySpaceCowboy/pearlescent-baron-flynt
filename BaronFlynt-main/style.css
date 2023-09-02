@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(197, 195, 195);
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0px;
+}
+.banner > h1 {
+    color: rgb(0, 255, 255);
+    font-family: 'Teko', sans-serif;
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.banner > ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.banner > ul > li {
+    list-style: none;
+    display: inline;
+    color: gray;
+}
+.banner > ul > a {
+    text-decoration: none;
+}
+.imagecover {
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+}
+.imagecover > img {
+    width: 100%;
+}
+hr {
+    border-width: 1px;
+    background-color: #fff;
+}
+.textbanner {
+    color: rgb(147, 147, 150);
+    text-align: center;
+    font-size: .8rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.newReleases {
+    background-color: rgb(54, 53, 53);
+    color: #fff;
+}
+.newReleases > h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.textbox1 {
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.promovideo {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.promovideo > iframe {
+    width: 100%;
+    margin: 0 auto;
+}
+.newReleases > h3{
+    text-align: center;
+    margin: 20px 0;
+}
+.newReleases > a {
+    display: flex;
+}
+.newReleases > a > img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.merch {
+    background-color: black;
+    color: #fff;
+}
+.merch  > h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.textbox2 {
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.musicbtn {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.watch {
+    background-color: rgb(54, 53, 53);
+    color: #fff;
+    width: 100%;
+}
+.watch > h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.watch > p {
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.watch > h3 {
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+.watch-Videos {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.watch-Videos > iframe {
+    width: 280px;
+}
+
+.textbox3 {
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.terms {
+    background-color: rgb(61, 183, 217);
+    color: rgb(85, 84, 84);
+    text-align: center;
+    font-size: .80rem;
+    padding: 10px 0;
+}
+.socialMedia {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.socialMedia-Text {
+    margin-bottom: 20px;
+}
+.socialMedia-Icon > a > img {
+    width: 40px;
+}
